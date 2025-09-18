@@ -36,7 +36,9 @@ export default function CartPage() {
   return (
     
     <div className="container mx-auto p-8">
-       <Link href="http://localhost:3000/" className="text-gray-800 hover:text-green-600" ><button className='btn btn-black'> HOME</button></Link>
+<Link href="/" className="text-gray-800 hover:text-green-600">
+  <button className="btn btn-black">HOME</button>
+</Link>
       <h1 className="text-3xl font-bold mb-6">Shopping Cart</h1>
       <div className="space-y-6">
         {cart.map(({ product, quantity }) => (

@@ -30,7 +30,9 @@ export default function Navbar() {
         <Link href="#pen" className="text-gray-800 hover:text-green-600" onClick={() => isMobile && setIsSidebarOpen(false)}>PENDANT</Link>
       </div>
 
+      <Link href="/about" className="text-gray-800 hover:text-green-600" onClick={() => isMobile && setIsSidebarOpen(false)}>ABOUT</Link>
       <Link href="#contact" className="text-gray-800 hover:text-green-600" onClick={() => isMobile && setIsSidebarOpen(false)}>CONTACT</Link>
+
 
       {/* Account Icon */}
       <button aria-label="Account" className="text-gray-800 hover:text-green-600 transition">
@@ -51,8 +53,15 @@ export default function Navbar() {
           <div className="flex items-center space-x-4">
             {/* Hamburger menu (mobile only) */}
             <button className="md:hidden text-gray-800 hover:text-green-600" onClick={() => setIsSidebarOpen(true)}>☰</button>
-            <Image src="/image/logo.png" alt="Diamond Pendant" width={30} height={500} />
-            <Link href="/" className="text-xl font-bold text-gray-800">Bubbles</Link>
+            <Image 
+  src="/image/logo.png" 
+  alt="Diamond Pendant" 
+  width={30} 
+  height={30} // ✅ not 500
+  className="w-8 h-8"
+  priority
+/>
+            <Link href="/" className="text-xl font-bold text-gray-800">RWUS</Link>
           </div>
 
           {/* Desktop Nav + Cart */}

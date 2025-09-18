@@ -13,13 +13,14 @@ export default function Footer() {
           Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.
         </p>
         <div className="flex justify-center mt-6">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="px-4 py-3 w-72 border border-gray-300 focus:outline-none"
-          />
+         
           <button className="bg-black text-white px-6 py-3 font-semibold">
-            Subscribe
+            FACEBOOK
+          </button> 
+          <br/>
+          🧑🏻‍💻
+          <button className="bg-black text-white px-6 py-3 font-semibold">
+            INSTAGRAM
           </button>
         </div>
       </div>
@@ -56,13 +57,13 @@ export default function Footer() {
 
         {/* We Accept */}
         <div>
-           <div className="grid  gap-4">
+           {/* <div className="grid  gap-4">
   <Image src="/image/pay.jpg" alt="Amex" width={60} height={40} className="h-10 w-auto" />
   <Image src="/image/master.jpg" alt="MasterCard" width={60} height={40} className="h-10 w-auto" />
   <Image src="/image/pal.jpg" alt="PayPal" width={60} height={40} className="h-10 w-auto" />
   <Image src="/image/visa.jpg" alt="Visa" width={60} height={40} className="h-10 w-auto" />
   <Image src="/image/str.jpg" alt="Stripe" width={60} height={40} className="h-10 w-auto" />
-</div>
+</div> */}
 
            
            
@@ -71,7 +72,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="text-center py-4 text-sm text-gray-500 border-t border-gray-300">
-        © 2025 Bubblems
+        © 2025 RAYO WORLD UNIQUE SERVICES. 
       </div>
     </footer>
   );

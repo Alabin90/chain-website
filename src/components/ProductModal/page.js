@@ -93,9 +93,7 @@ export default function ProductModal({ product, onClose }) {
             >
               ADD TO CART - ₦{(product.price * quantity).toFixed(2)}
             </button>
-            <button className="mt-2 w-full rounded bg-black py-3 text-white hover:bg-gray-800">
-              BUY IT NOW
-            </button>
+           
           </div>
         </div>
       </div>
