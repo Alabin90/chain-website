@@ -1,12 +1,16 @@
+"use client"
 import React from 'react'
-import Carousel from '@/components/Carousel/page ';
+
+import Mother from '@/components/Mother/page';
+
 
 
 const page = () => {
   return (
     <div>
       home page
-      <Carousel />
+     
+      <Mother />
     </div>
   )
 }

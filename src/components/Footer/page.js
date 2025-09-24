@@ -9,7 +9,8 @@ export default function Footer() {
         
         {/* Brand + Description */}
         <div>
-          <h2 className="text-2xl font-bold">RAYO WORLD UNIQUE SERVICES</h2>
+        
+          <h2 id="contact" className="text-2xl font-bold">RAYO WORLD UNIQUE SERVICES</h2>
           <p className="mt-3 text-sm leading-relaxed text-gray-600">
             Experience luxury & exclusive collection of premium chains and elegant pendants — crafted to shine for every occasion.
           </p>
@@ -35,6 +36,7 @@ export default function Footer() {
             <li><Link href="#product">Products</Link></li>
             <li><Link href="/about">About</Link></li>
             <li><Link href="/cart">Cart</Link></li>
+            <li><Link href="#contact">Contact</Link></li>
           </ul>
         </div>
 

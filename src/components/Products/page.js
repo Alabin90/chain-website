@@ -2,6 +2,8 @@
 "use client";
 import React, { useRef } from "react";
 import ProductCard from "@/components/ProductCard/page";
+import Mother from "@/components/Mother/page";
+
 
 export default function ProductsPage() {
   const scrollRef1 = useRef(null);
@@ -22,50 +24,50 @@ export default function ProductsPage() {
 
   const products = [
   {
-    id: 1,
-    name: "Classic Diamond Pendant",
-    image: "/image/ped.jpeg",
-    slug: "classic-diamond-pendant",
-    description: "A timeless diamond pendant crafted in 18k gold for everyday elegance.",
-    price: 450000,
-    oldPrice: 470000,
-    sale: true,
-    colors: ["#FFD700", "#D2B48C", "#FFA500"],
-  },
-  {
-    id: 2,
-    name: "Royal Cross Gold Pendant",
-    slug: "royal-cross-gold-pendant",
-    image: "/image/pen33.jpg",
-    description: "Bold and meaningful, a royal cross pendant designed in pure karat gold.",
-    price: 400000,
-    sale: false,
-    colors: ["#FFD700", "#8B4513", "#D2B48C"],
-  },
-  {
-    id: 3,
-    name: "Heart of Gold Pendant",
-    slug: "heart-of-gold-pendant",
-    image: "/image/pe3.jpg",
-    description: "Romantic and stylish — a heart-shaped gold pendant that speaks love.",
-    price: 380000,
-    oldPrice: 410000,
-    sale: true,
-    colors: ["#FFC0CB", "#FFD700", "#FFA07A"],
-  },
-  {
-    id: 4,
-    name: "Cuban Link Pendant",
-    slug: "cuban-link-pendant",
-    image: "/image/pe4.jpg",
-    description: "Strong and sleek — a Cuban link pendant made for bold statements.",
-    price: 370000,
-    sale: false,
-    colors: ["#FFD700", "#D2B48C", "#A0522D"],
-  },
+   id: 1,
+  name: "Classic Diamond Pendant (18k)",
+  image: "/image/ped.jpeg",
+  slug: "classic-diamond-pendant",
+  description: "A timeless diamond pendant crafted in 18k gold for everyday elegance.",
+  price: 450000,
+  oldPrice: 470000,
+  sale: true,
+  colors: ["#FFD700", "#D2B48C", "#FFA500"],
+},
+{
+  id: 2,
+  name: "Royal Cross Gold Pendant (24k)",
+  slug: "royal-cross-gold-pendant",
+  image: "/image/pen33.jpg",
+  description: "Bold and meaningful, a royal cross pendant designed in pure karat gold.",
+  price: 400000,
+  sale: false,
+  colors: ["#FFD700", "#8B4513", "#D2B48C"],
+},
+{
+  id: 3,
+  name: "Heart of Gold Pendant (18k)",
+  slug: "heart-of-gold-pendant",
+  image: "/image/pe3.jpg",
+  description: "Romantic and stylish — a heart-shaped gold pendant that speaks love.",
+  price: 380000,
+  oldPrice: 410000,
+  sale: true,
+  colors: ["#FFC0CB", "#FFD700", "#FFA07A"],
+},
+{
+  id: 4,
+  name: "Cuban Link Pendant (22k)",
+  slug: "cuban-link-pendant",
+  image: "/image/pe4.jpg",
+  description: "Strong and sleek — a Cuban link pendant made for bold statements.",
+  price: 370000,
+  sale: false,
+  colors: ["#FFD700", "#D2B48C", "#A0522D"],
+},
   {
     id: 5,
-    name: "Vintage Medallion Pendant",
+    name: "Vintage Medallion Pendant  (18k)",
     slug: "vintage-medallion-pendant",
     image: "/image/pe5.jpg",
     description: "Inspired by heritage, this medallion pendant blends tradition and luxury.",
@@ -76,7 +78,7 @@ export default function ProductsPage() {
   },
   {
     id: 6,
-    name: "Golden Sunburst Pendant",
+    name: "Golden Sunburst Pendant  (20k)",
     slug: "golden-sunburst-pendant",
     image: "/image/bana.jpg",
     description: "Radiating charm and power — the Sunburst pendant shines with brilliance.",
@@ -167,7 +169,7 @@ export default function ProductsPage() {
  const products3 = [
   {
     id: 6,
-    name: "Ethereal Essence Multi-Stone Bracelet",
+    name: "Ethereal Essence Multi-Stone Bracelet (18K)",
     slug: "ethereal-essence-multi-stone",
     image: "/image/ne1.jpg",
     description: "A luxury 18K gold bracelet with multi-stone details, crafted for elegance and daily wear.",
@@ -177,7 +179,7 @@ export default function ProductsPage() {
   },
   {
     id: 4,
-    name: "Individually Adjustable Cuban Buckle Multilayer Bracelet",
+    name: "Individually Adjustable Cuban Buckle Bracelet (20K)",
     slug: "cuban-buckle-multilayer",
     image: "/image/ne2.jpg",
     description: "Premium 20K Cuban buckle design, bold and adjustable for perfect wrist comfort.",
@@ -187,7 +189,7 @@ export default function ProductsPage() {
   },
   {
     id: 5,
-    name: "Vintage Flower Pattern Leather Cord Bracelet",
+    name: "Vintage Leather Cord Bracelet (22K)",
     slug: "vintage-flower-leather",
     image: "/image/ne3.jpg",
     description: "22K inspired leather cord bracelet with a unique vintage flower touch for timeless charm.",
@@ -196,9 +198,9 @@ export default function ProductsPage() {
     colors: ["#8B4513", "#D2B48C", "#A0522D"],
   },
   {
-    id: 6,
-    name: "Ethereal Essence Multi-Stone Bracelet",
-    slug: "ethereal-multi-stone-pendant",
+    id: 7,
+    name: "Essence Multi-Stone Bracelet (21K)",
+    slug: "essence-multi-stone-bracelet",
     image: "/image/p00.jpg",
     description: "Classic pendant bracelet in 21K gold, designed for those who love refined beauty.",
     price: 400000,
@@ -207,7 +209,7 @@ export default function ProductsPage() {
   },
   {
     id: 7,
-    name: "Multi-Stone Bracelet",
+    name: "Multi-Stone Bracelet (24K)",
     slug: "multi-stone-bracelet",
     image: "/image/pe2.jpg",
     description: "Bold 24K multi-stone bracelet, handcrafted for a statement luxury look.",
@@ -217,7 +219,7 @@ export default function ProductsPage() {
   },
   {
     id: 8,
-    name: "Stone Bracelet",
+    name: "Stone Bracelet (18K)",
     slug: "stone-bracelet",
     image: "/image/han4.jpg",
     description: "Simple yet elegant 18K gold stone bracelet that blends tradition with style.",
@@ -227,7 +229,7 @@ export default function ProductsPage() {
   },
   {
     id: 9,
-    name: "Alphabet Pendant",
+    name: "Alphabet Pendant (22K)",
     slug: "alphabet-pendant",
     image: "/image/pen55.jpg",
     description: "Personalized alphabet pendant in 22K gold, perfect for gifting or self-expression.",
@@ -244,6 +246,10 @@ export default function ProductsPage() {
       <h1 className="text-3xl font-bold mb-10 text-center">
         Explore Our Bracelets
       </h1>
+
+      <Mother/>
+      <br/>
+      <br/>
 
       {/* Row 1 */}
       <h2 className="text-2xl font-semibold mb-4">PENDANCES </h2>

@@ -50,3 +50,5 @@ export default function Carousel() {
     </div>
   );
 }
+
+app/page.tsx
