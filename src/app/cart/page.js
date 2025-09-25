@@ -21,7 +21,7 @@ export default function CartPage() {
       return;
     }
 
-    const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "2349020000000"; // Nigerian format (234 + no leading 0)
+    const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "971552330359"; // Nigerian format (234 + no leading 0)
 
     const orderMessage = encodeURIComponent(
       `*Hello, I want to order:*\n\n${cart
