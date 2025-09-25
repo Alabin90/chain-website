@@ -44,10 +44,10 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-3">Contact</h3>
           <p className="flex items-center gap-2 text-sm text-gray-600">
-            📍 123 Beauty Lane, London, UK SW1A 1AA
+            {/* 📍 123 Beauty Lane, London, UK SW1A 1AA */}
           </p>
           <p className="flex items-center gap-2 text-sm text-gray-600 mt-2">
-            ☎️ +44 20 7123 4567
+            ☎️ +971 55 233 0359
           </p>
           <p className="flex items-center gap-2 text-sm text-gray-600 mt-2">
             ⏰ Mon-Sat: 9AM - 7PM
