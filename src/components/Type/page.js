@@ -4,13 +4,22 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const words = [
-  "Price is varies 💎",
-  "Karat Gold Store 🛍️",
-  "24K - ~117.60 USD/g",
-  "23K - ~113.46 USD/g",
-  "22K - ~108.50 – 109.00 USD/g",
-  "21K - ~103.60 USD/g",
-  
+"Price is varies 💎",
+
+"Karat Gold Store 🛍️",
+
+"24K - ~117.60 USD/g",
+
+"23K - ~113.46 USD/g",
+
+"22K - ~108.50 – 109.00 USD/g",
+
+"21K - ~103.60 USD/g",
+
+"20K - ~98.50 USD/g",
+
+"18K - ~88.20 USD/g",
+
 ];
 
 export default function TypewriterGold() {

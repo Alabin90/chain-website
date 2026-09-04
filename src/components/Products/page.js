@@ -22,307 +22,270 @@ export default function ProductsPage() {
     }
   };
 
-  const products = [
-    {
-      id: 1,
-      name: "Rope Chain (18K)",
-      image: "/image/kar1.jpeg",
-      slug: "rope-chain-18k",
-      description: "Classic twisted rope-style bracelet.",
-      price: 450000,
-      oldPrice: 470000,
-      sale: true,
-      colors: ["#FFD700", "#D2B48C", "#FFA500"],
-    },
-    {
-      id: 2,
-      name: "Cuban Link (22K)",
-      image: "/image/kar2.jpeg",
-      slug: "cuban-link-22k",
-      description: "Bold and timeless Cuban gold chain.",
-      price: 600000,
-      sale: false,
-      colors: ["#FFD700", "#8B4513", "#D2B48C"],
-    },
-    {
-      id: 3,
-      name: "Square Link (18K)",
-      image: "/image/kar3.jpeg",
-      slug: "square-link-18k",
-      description: "Strong square links with sleek design.",
-      price: 217000,
-      
-      sale: true,
-      colors: ["#FFC0CB", "#FFD700", "#FFA07A"],
-    },
-    {
-      id: 4,
-      name: "Figaro Chain (21K)",
-      image: "/image/kar4.jpeg",
-      slug: "figaro-chain-21k",
-      description: "Patterned links with elegant spacing.",
-      price: 370000,
-      sale: false,
-      colors: ["#FFD700", "#D2B48C", "#A0522D"],
-    },
-    {
-      id: 5,
-      name: "Snake Chain (20K)",
-      image: "/image/kar5.jpeg",
-      slug: "snake-chain-20k",
-      description: "Smooth, flexible, and shiny finish.",
-      price: 360000,
-      oldPrice: 380000,
-      sale: true,
-      colors: ["#8B4513", "#FFD700", "#D2B48C"],
-    },
-    {
-      id: 6,
-      name: "Rolo Chain (18K)",
-      image: "/image/kar6.jpeg",
-      slug: "rolo-chain-18k",
-      description: "Round interlocking links, casual look.",
-      price: 390000,
-      sale: false,
-      colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
-    },
-    {
-      id: 7,
-      name: "Teddy Bear Pendant(22K)",
-      image: "/image/kar7.jpeg",
-      slug: "anchor-chain-22k",
-      description: "Nautical style, durable everyday wear.",
-      price: 395000,
-      sale: false,
-      colors: ["#FFD700", "#8B4513", "#D2B48C"],
-    },
-    {
-      id: 8,
-      name: "Dollar Pendant (18K)",
-      image: "/image/kar8.jpeg",
-      slug: "foxtail-chain-18k",
-      description: "Dense, woven design for luxury vibe.",
-      price: 285000,
-     
-      sale: true,
-      colors: ["#FFD700", "#D2B48C", "#FFA500"],
-    },
-    {
-      id: 9,
-      name: "3tones Ball bracelet (21K)",
-      image: "/image/kar9.jpeg",
-      slug: "byzantine-chain-21k",
-      description: "Intricate and regal craftsmanship.",
-      price: 410000,
-      sale: false,
-      colors: ["#FFD700", "#D2B48C", "#A0522D"],
-    },
-    {
-      id: 10,
-      name: "Wheat Chain (22K)",
-      image: "/image/kar10.jpeg",
-      slug: "wheat-chain-22k",
-      description: "Braided design, flexible and strong.",
-      price: 511500,
-      sale: false,
-      colors: ["#FFD700", "#8B4513", "#D2B48C"],
-    },
-    {
-      id: 11,
-      name: "Ball bracelet(18K)",
-      image: "/image/kar11.jpeg",
-      slug: "herringbone-chain-18k",
-      description: "Flat, smooth links with shimmer.",
-      price: 345000,
-     
-      sale: true,
-      colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
-    },
-  ];
-  
-
-
-  const products2= [
-  
-    {
-      id: 3,
-      name: "Curb Chain (20K)",
-      image: "/image/bo.jpg",
-      slug: "curb-chain-20k",
-      description: "Flat interlocking links for a smooth modern look.",
-      price: 385000,
-      sale: false,
-      colors: ["#FFD700", "#FFA500", "#D2B48C"],
-    },
-    {
-      id: 4,
-      name: "Pendant Chain (21K)",
-      image: "/image/dui.jpg",
-      slug: "pendant-chain-21k",
-      description: "Strong chain paired with a detailed pendant.",
-      price: 395000,
-      oldPrice: 410000,
-      sale: true,
-      colors: ["#FFD700", "#D2B48C", "#A0522D"],
-    },
-    {
-      id: 5,
-      name: "Rope Chain (18K)",
-      image: "/image/no.jpg",
-      slug: "rope-chain-18k",
-      description: "Twisted rope design for bold everyday wear.",
-      price: 455000,
-      sale: false,
-      colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
-    },
-    {
-      id: 6,
-      name: "Cuban Link (24K)",
-      image: "/image/we.jpg",
-      slug: "cuban-link-24k",
-      description: "Heavy Cuban link chain crafted in pure 24k gold.",
-      price: 410000,
-      sale: false,
-      colors: ["#FFD700", "#8B4513", "#D2B48C"],
-    },
-    {
-      id: 7,
-      name: "Foxtail Chain (22K)",
-      image: "/image/go.jpg",
-      slug: "foxtail-chain-22k",
-      description: "Dense woven links with a luxury vibe.",
-      price: 405000,
-      sale: true,
-      colors: ["#FFD700", "#D2B48C", "#FFA500"],
-    },
-    {
-      id: 8,
-      name: "Rolo Chain (18K)",
-      image: "/image/tk.jpg",
-      slug: "rolo-chain-18k",
-      description: "Round interlocking links, casual and stylish.",
-      price: 550000,
-      sale: false,
-      colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
-    },
-    {
-      id: 9,
-      name: "Figaro Chain  (21K)",
-      image: "/image/nof.jpg",
-      slug: "byzantine-chain-21k",
-      description: "Intricate handcrafted design with royal feel.",
-      price: 420000,
-      sale: false,
-      colors: ["#FFD700", "#D2B48C", "#A0522D"],
-    },
-    {
-      id: 1,
-      name: "Figaro Chain (18K)",
-      image: "/image/fix.jpg",
-      slug: "figaro-chain-18k",
-      description: "Classic Figaro chain with alternating link pattern.",
-      price: 370000,
-      oldPrice: 390000,
-      sale: true,
-      colors: ["#FFD700", "#D2B48C", "#A0522D"],
-    },
-    {
-      id: 2,
-      name: "Box Chain (22K)",
-      image: "/image/bon.jpg",
-      slug: "box-chain-22k",
-      description: "Solid box-style links, sleek and durable.",
-      price: 400000,
-      sale: false,
-      colors: ["#FFD700", "#8B4513", "#D2B48C"],
-    },
-    {
-      id: 10,
-      name: "Snake Chain (20K)",
-      image: "/image/fjd.jpg",
-      slug: "snake-chain-20k",
-      description: "Smooth flexible chain with glossy shine.",
-      price: 380000,
-      oldPrice: 395000,
-      sale: true,
-      colors: ["#8B4513", "#FFD700", "#D2B48C"],
-    },
-  ];
-
-  const products3 = [
-    {
-      id: 1,
-      name: "Textured Beaded Bracelet (18K)",
-      image: "/image/2t.jpeg",
-      slug: "textured-beaded-bracelet-18k",
-      description: "Elegant beaded design with textured finish.",
-      price: 589000, // 24g * 52.5 * 1.75
-      sale: true,
-      colors: ["#FFD700", "#D2B48C", "#FFA500"],
-    },
-    {
-      id: 2,
-      name: "Figaro Chain Necklace (22K)",
-      image: "/image/fi.jpeg",
-      slug: "figaro-chain-necklace-22k",
-      description: "Classic Figaro link style in rich 22K gold.",
-      price: 1080000, 
-      sale: false,
-      colors: ["#FFD700", "#8B4513", "#D2B48C"],
-    },
-    {
-      id: 3,
-      name: "Key Pendant (21K)",
-      image: "/image/key pendant.jpeg",
-      slug: "key-pendant-21k",
-      description: "Symbolic key charm with polished finish.",
-      price: 450000, // 3.0g * 61 * 1.75
-      
-      sale: true,
-      colors: ["#FFD700", "#D2B48C", "#FFA500"],
-    },
-    {
-      id: 4,
-      name: "Infinity Necklace (22K)",
-      image: "/image/inf.jpeg",
-      slug: "infinity-necklace-22k",
-      description: "Modern infinity symbol, perfect for gifting.",
-      price: 585000, // 3.9g * 64 * 1.75
-      sale: false,
-      colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
-    },
-    {
-      id: 5,
-      name: "Tiny Stud Earrings (18K)",
-      image: "/image/stud.jpeg",
-      slug: "tiny-stud-earrings-18k",
-      description: "Minimalist studs, everyday elegance.",
-      price: 120000, // 0.8g * 52.5 * 1.75
-      sale: false,
-      colors: ["#FFD700", "#D2B48C", "#FFA500"],
-    },
-    {
-      id: 6,
-      name: "Pearl Drop Earrings (21K)",
-      image: "/image/eer.jpeg",
-      slug: "pearl-drop-earrings-21k",
-      description: "Sleek drop design with pearl accent.",
-      price: 315000, // 2.1g * 61 * 1.75
-      sale: true,
-      colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
-    },
-    {
-      id: 7,
-      name: "Heart Pendant (22K)",
-      image: "/image/hes.jpeg",
-      slug: "heart-pendant-22k",
-      description: "Romantic heart charm with engraved details.",
-      price: 450000, // 3.0g * 64 * 1.75
-      sale: false,
-      colors: ["#FFD700", "#8B4513", "#D2B48C"],
-    },
+ 
+const products = [
+  {
+    id: 1,
+    name: "Rope Chain (18K)",
+    image: "/image/kar1.jpeg",
+    slug: "rope-chain-18k",
+    description: "Classic twisted rope-style bracelet.",
+    
+    colors: ["#FFD700", "#D2B48C", "#FFA500"],
+  },
+  {
+    id: 2,
+    name: "Cuban Link (22K)",
+    image: "/image/kar2.jpeg",
+    slug: "cuban-link-22k",
+    description: "Bold and timeless Cuban gold chain.",
    
-  ];
+    colors: ["#FFD700", "#8B4513", "#D2B48C"],
+  },
+  {
+    id: 3,
+    name: "Square Link (18K)",
+    image: "/image/kar3.jpeg",
+    slug: "square-link-18k",
+    description: "Strong square links with sleek design.",
+    
+    colors: ["#FFC0CB", "#FFD700", "#FFA07A"],
+  },
+  {
+    id: 4,
+    name: "Figaro Chain (21K)",
+    image: "/image/kar4.jpeg",
+    slug: "figaro-chain-21k",
+    description: "Patterned links with elegant spacing.",
+    
+    colors: ["#FFD700", "#D2B48C", "#A0522D"],
+  },
+  {
+    id: 5,
+    name: "Snake Chain (20K)",
+    image: "/image/kar5.jpeg",
+    slug: "snake-chain-20k",
+    description: "Smooth, flexible, and shiny finish.",
+    
+    colors: ["#8B4513", "#FFD700", "#D2B48C"],
+  },
+  {
+    id: 6,
+    name: "Rolo Chain (18K)",
+    image: "/image/kar6.jpeg",
+    slug: "rolo-chain-18k",
+    description: "Round interlocking links, casual look.",
+    
+    colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
+  },
+  {
+    id: 7,
+    name: "Teddy Bear Pendant(22K)",
+    image: "/image/kar7.jpeg",
+    slug: "anchor-chain-22k",
+    description: "Nautical style, durable everyday wear.",
+   
+    colors: ["#FFD700", "#8B4513", "#D2B48C"],
+  },
+  {
+    id: 8,
+    name: "Dollar Pendant (18K)",
+    image: "/image/kar8.jpeg",
+    slug: "foxtail-chain-18k",
+    description: "Dense, woven design for luxury vibe.",
+    
+    colors: ["#FFD700", "#D2B48C", "#FFA500"],
+  },
+  {
+    id: 9,
+    name: "3tones Ball bracelet (21K)",
+    image: "/image/kar9.jpeg",
+    slug: "byzantine-chain-21k",
+    description: "Intricate and regal craftsmanship.",
+    sale: false,
+    colors: ["#FFD700", "#D2B48C", "#A0522D"],
+  },
+  {
+    id: 10,
+    name: "Wheat Chain (22K)",
+    image: "/image/kar10.jpeg",
+    slug: "wheat-chain-22k",
+    description: "Braided design, flexible and strong.",
+    sale: false,
+    colors: ["#FFD700", "#8B4513", "#D2B48C"],
+  },
+  {
+    id: 11,
+    name: "Ball bracelet(18K)",
+    image: "/image/kar11.jpeg",
+    slug: "herringbone-chain-18k",
+    description: "Flat, smooth links with shimmer.",
+    
+    colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
+  },
+];
+
+const products2 = [
+  {
+    id: 3,
+    name: "Curb Chain (20K)",
+    image: "/image/bo.jpg",
+    slug: "curb-chain-20k",
+    description: "Flat interlocking links for a smooth modern look.",
+    sale: false,
+    colors: ["#FFD700", "#FFA500", "#D2B48C"],
+  },
+  {
+    id: 4,
+    name: "Pendant Chain (21K)",
+    image: "/image/dui.jpg",
+    slug: "pendant-chain-21k",
+    description: "Strong chain paired with a detailed pendant.",
+    
+    colors: ["#FFD700", "#D2B48C", "#A0522D"],
+  },
+  {
+    id: 5,
+    name: "Rope Chain (18K)",
+    image: "/image/no.jpg",
+    slug: "rope-chain-18k",
+    description: "Twisted rope design for bold everyday wear.",
+    sale: false,
+    colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
+  },
+  {
+    id: 6,
+    name: "Cuban Link (24K)",
+    image: "/image/we.jpg",
+    slug: "cuban-link-24k",
+    description: "Heavy Cuban link chain crafted in pure 24k gold.",
+    sale: false,
+    colors: ["#FFD700", "#8B4513", "#D2B48C"],
+  },
+  {
+    id: 7,
+    name: "Foxtail Chain (22K)",
+    image: "/image/go.jpg",
+    slug: "foxtail-chain-22k",
+    description: "Dense woven links with a luxury vibe.",
+   
+    colors: ["#FFD700", "#D2B48C", "#FFA500"],
+  },
+  {
+    id: 8,
+    name: "Rolo Chain (18K)",
+    image: "/image/tk.jpg",
+    slug: "rolo-chain-18k",
+    description: "Round interlocking links, casual and stylish.",
+    
+    colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
+  },
+  {
+    id: 9,
+    name: "Figaro Chain  (21K)",
+    image: "/image/nof.jpg",
+    slug: "byzantine-chain-21k",
+    description: "Intricate handcrafted design with royal feel.",
+    
+    colors: ["#FFD700", "#D2B48C", "#A0522D"],
+  },
+  {
+    id: 1,
+    name: "Figaro Chain (18K)",
+    image: "/image/fix.jpg",
+    slug: "figaro-chain-18k",
+    description: "Classic Figaro chain with alternating link pattern.",
+    
+    colors: ["#FFD700", "#D2B48C", "#A0522D"],
+  },
+  {
+    id: 2,
+    name: "Box Chain (22K)",
+    image: "/image/bon.jpg",
+    slug: "box-chain-22k",
+    description: "Solid box-style links, sleek and durable.",
+    
+    colors: ["#FFD700", "#8B4513", "#D2B48C"],
+  },
+  {
+    id: 10,
+    name: "Snake Chain (20K)",
+    image: "/image/fjd.jpg",
+    slug: "snake-chain-20k",
+    description: "Smooth flexible chain with glossy shine.",
+    
+    colors: ["#8B4513", "#FFD700", "#D2B48C"],
+  },
+];
+
+const products3 = [
+  {
+    id: 1,
+    name: "Textured Beaded Bracelet (18K)",
+    image: "/image/2t.jpeg",
+    slug: "textured-beaded-bracelet-18k",
+    description: "Elegant beaded design with textured finish.",
+    
+    colors: ["#FFD700", "#D2B48C", "#FFA500"],
+  },
+  {
+    id: 2,
+    name: "Figaro Chain Necklace (22K)",
+    image: "/image/fi.jpeg",
+    slug: "figaro-chain-necklace-22k",
+    description: "Classic Figaro link style in rich 22K gold.",
+    
+    colors: ["#FFD700", "#8B4513", "#D2B48C"],
+  },
+  {
+    id: 3,
+    name: "Key Pendant (21K)",
+    image: "/image/key pendant.jpeg",
+    slug: "key-pendant-21k",
+    description: "Symbolic key charm with polished finish.",
+    
+    colors: ["#FFD700", "#D2B48C", "#FFA500"],
+  },
+  {
+    id: 4,
+    name: "Infinity Necklace (22K)",
+    image: "/image/inf.jpeg",
+    slug: "infinity-necklace-22k",
+    description: "Modern infinity symbol, perfect for gifting.",
+    
+    colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
+  },
+  {
+    id: 5,
+    name: "Tiny Stud Earrings (18K)",
+    image: "/image/stud.jpeg",
+    slug: "tiny-stud-earrings-18k",
+    description: "Minimalist studs, everyday elegance.",
+    
+    colors: ["#FFD700", "#D2B48C", "#FFA500"],
+  },
+  {
+    id: 6,
+    name: "Pearl Drop Earrings (21K)",
+    image: "/image/eer.jpeg",
+    slug: "pearl-drop-earrings-21k",
+    description: "Sleek drop design with pearl accent.",
+    
+    colors: ["#FFD700", "#E6E6FA", "#B0E0E6"],
+  },
+  {
+    id: 7,
+    name: "Heart Pendant (22K)",
+    image: "/image/hes.jpeg",
+    slug: "heart-pendant-22k",
+    description: "Romantic heart charm with engraved details.",
+    
+    colors: ["#FFD700", "#8B4513", "#D2B48C"],
+  },
+];
+
+
+
 
 
 
@@ -345,7 +308,7 @@ export default function ProductsPage() {
           aria-label="Scroll left"
         >
           ◀
-        </button>
+        </button>-
         <div
           ref={scrollRef1}
           className="flex space-x-6 overflow-x-auto pb-6 snap-x scrollbar-hide px-2"
