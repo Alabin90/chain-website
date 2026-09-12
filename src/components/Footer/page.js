@@ -57,7 +57,7 @@ export default function Footer() {
 
       {/* Bottom */}
       <div className="border-t border-gray-300 text-center py-4 text-sm text-gray-500">
-        © 2025 RAYO WORLD UNIQUE SERVICES. All rights reserved.
+        © 2026 RAYO WORLD UNIQUE SERVICES. All rights reserved.
       </div>
     </footer>
   );

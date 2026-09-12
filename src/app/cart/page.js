@@ -66,7 +66,7 @@ export default function CartPage() {
             <div className="ml-4 flex-1">
               <h3 className="text-lg font-semibold">{product.name}</h3>
               <p>
-                {formatPrice(product.price)} × {quantity}
+                {/* {formatPrice(product.price)} × {quantity} */}
               </p>
               <div className="flex items-center space-x-2 mt-2">
                 <button

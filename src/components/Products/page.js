@@ -26,7 +26,7 @@ export default function ProductsPage() {
 const products = [
   {
     id: 1,
-    name: "Rope Chain (18K)",
+    name: "Rope Chain ",
     image: "/image/kar1.jpeg",
     slug: "rope-chain-18k",
     description: "Classic twisted rope-style bracelet.",
@@ -35,7 +35,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Cuban Link (22K)",
+    name: "Cuban Link ",
     image: "/image/kar2.jpeg",
     slug: "cuban-link-22k",
     description: "Bold and timeless Cuban gold chain.",
@@ -44,7 +44,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Square Link (18K)",
+    name: "Square Link ",
     image: "/image/kar3.jpeg",
     slug: "square-link-18k",
     description: "Strong square links with sleek design.",
@@ -53,7 +53,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Figaro Chain (21K)",
+    name: "Figaro Chain ",
     image: "/image/kar4.jpeg",
     slug: "figaro-chain-21k",
     description: "Patterned links with elegant spacing.",
@@ -62,7 +62,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Snake Chain (20K)",
+    name: "Snake Chain ",
     image: "/image/kar5.jpeg",
     slug: "snake-chain-20k",
     description: "Smooth, flexible, and shiny finish.",
@@ -71,7 +71,7 @@ const products = [
   },
   {
     id: 6,
-    name: "Rolo Chain (18K)",
+    name: "Rolo Chain ",
     image: "/image/kar6.jpeg",
     slug: "rolo-chain-18k",
     description: "Round interlocking links, casual look.",
@@ -80,7 +80,7 @@ const products = [
   },
   {
     id: 7,
-    name: "Teddy Bear Pendant(22K)",
+    name: "Teddy Bear Pendant",
     image: "/image/kar7.jpeg",
     slug: "anchor-chain-22k",
     description: "Nautical style, durable everyday wear.",
@@ -89,7 +89,7 @@ const products = [
   },
   {
     id: 8,
-    name: "Dollar Pendant (18K)",
+    name: "Dollar Pendant ",
     image: "/image/kar8.jpeg",
     slug: "foxtail-chain-18k",
     description: "Dense, woven design for luxury vibe.",
@@ -98,7 +98,7 @@ const products = [
   },
   {
     id: 9,
-    name: "3tones Ball bracelet (21K)",
+    name: "3tones Ball bracelet ",
     image: "/image/kar9.jpeg",
     slug: "byzantine-chain-21k",
     description: "Intricate and regal craftsmanship.",
@@ -107,7 +107,7 @@ const products = [
   },
   {
     id: 10,
-    name: "Wheat Chain (22K)",
+    name: "Wheat Chain ",
     image: "/image/kar10.jpeg",
     slug: "wheat-chain-22k",
     description: "Braided design, flexible and strong.",
@@ -116,7 +116,7 @@ const products = [
   },
   {
     id: 11,
-    name: "Ball bracelet(18K)",
+    name: "Ball bracelet",
     image: "/image/kar11.jpeg",
     slug: "herringbone-chain-18k",
     description: "Flat, smooth links with shimmer.",
@@ -128,7 +128,7 @@ const products = [
 const products2 = [
   {
     id: 3,
-    name: "Curb Chain (20K)",
+    name: "Curb Chain ",
     image: "/image/bo.jpg",
     slug: "curb-chain-20k",
     description: "Flat interlocking links for a smooth modern look.",
@@ -137,7 +137,7 @@ const products2 = [
   },
   {
     id: 4,
-    name: "Pendant Chain (21K)",
+    name: "Pendant Chain ",
     image: "/image/dui.jpg",
     slug: "pendant-chain-21k",
     description: "Strong chain paired with a detailed pendant.",
@@ -146,7 +146,7 @@ const products2 = [
   },
   {
     id: 5,
-    name: "Rope Chain (18K)",
+    name: "Rope Chain ",
     image: "/image/no.jpg",
     slug: "rope-chain-18k",
     description: "Twisted rope design for bold everyday wear.",
@@ -155,7 +155,7 @@ const products2 = [
   },
   {
     id: 6,
-    name: "Cuban Link (24K)",
+    name: "Cuban Link ",
     image: "/image/we.jpg",
     slug: "cuban-link-24k",
     description: "Heavy Cuban link chain crafted in pure 24k gold.",
@@ -164,7 +164,7 @@ const products2 = [
   },
   {
     id: 7,
-    name: "Foxtail Chain (22K)",
+    name: "Foxtail Chain ",
     image: "/image/go.jpg",
     slug: "foxtail-chain-22k",
     description: "Dense woven links with a luxury vibe.",
@@ -173,7 +173,7 @@ const products2 = [
   },
   {
     id: 8,
-    name: "Rolo Chain (18K)",
+    name: "Rolo Chain ",
     image: "/image/tk.jpg",
     slug: "rolo-chain-18k",
     description: "Round interlocking links, casual and stylish.",
@@ -182,7 +182,7 @@ const products2 = [
   },
   {
     id: 9,
-    name: "Figaro Chain  (21K)",
+    name: "Figaro Chain  ",
     image: "/image/nof.jpg",
     slug: "byzantine-chain-21k",
     description: "Intricate handcrafted design with royal feel.",
@@ -191,7 +191,7 @@ const products2 = [
   },
   {
     id: 1,
-    name: "Figaro Chain (18K)",
+    name: "Figaro Chain ",
     image: "/image/fix.jpg",
     slug: "figaro-chain-18k",
     description: "Classic Figaro chain with alternating link pattern.",
@@ -200,7 +200,7 @@ const products2 = [
   },
   {
     id: 2,
-    name: "Box Chain (22K)",
+    name: "Box Chain ",
     image: "/image/bon.jpg",
     slug: "box-chain-22k",
     description: "Solid box-style links, sleek and durable.",
@@ -209,7 +209,7 @@ const products2 = [
   },
   {
     id: 10,
-    name: "Snake Chain (20K)",
+    name: "Snake Chain (20)",
     image: "/image/fjd.jpg",
     slug: "snake-chain-20k",
     description: "Smooth flexible chain with glossy shine.",
@@ -221,7 +221,7 @@ const products2 = [
 const products3 = [
   {
     id: 1,
-    name: "Textured Beaded Bracelet (18K)",
+    name: "Textured Beaded Bracelet ",
     image: "/image/2t.jpeg",
     slug: "textured-beaded-bracelet-18k",
     description: "Elegant beaded design with textured finish.",
@@ -230,7 +230,7 @@ const products3 = [
   },
   {
     id: 2,
-    name: "Figaro Chain Necklace (22K)",
+    name: "Figaro Chain Necklace ",
     image: "/image/fi.jpeg",
     slug: "figaro-chain-necklace-22k",
     description: "Classic Figaro link style in rich 22K gold.",
@@ -239,7 +239,7 @@ const products3 = [
   },
   {
     id: 3,
-    name: "Key Pendant (21K)",
+    name: "Key Pendant ",
     image: "/image/key pendant.jpeg",
     slug: "key-pendant-21k",
     description: "Symbolic key charm with polished finish.",
@@ -248,7 +248,7 @@ const products3 = [
   },
   {
     id: 4,
-    name: "Infinity Necklace (22K)",
+    name: "Infinity Necklace ",
     image: "/image/inf.jpeg",
     slug: "infinity-necklace-22k",
     description: "Modern infinity symbol, perfect for gifting.",
@@ -257,7 +257,7 @@ const products3 = [
   },
   {
     id: 5,
-    name: "Tiny Stud Earrings (18K)",
+    name: "Tiny Stud Earrings ",
     image: "/image/stud.jpeg",
     slug: "tiny-stud-earrings-18k",
     description: "Minimalist studs, everyday elegance.",
@@ -266,7 +266,7 @@ const products3 = [
   },
   {
     id: 6,
-    name: "Pearl Drop Earrings (21K)",
+    name: "Pearl Drop Earrings ",
     image: "/image/eer.jpeg",
     slug: "pearl-drop-earrings-21k",
     description: "Sleek drop design with pearl accent.",
@@ -275,7 +275,7 @@ const products3 = [
   },
   {
     id: 7,
-    name: "Heart Pendant (22K)",
+    name: "Heart Pendant ",
     image: "/image/hes.jpeg",
     slug: "heart-pendant-22k",
     description: "Romantic heart charm with engraved details.",
